@@ -12,15 +12,20 @@ body {
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
-  input[type="text"] {
-    width: 100%;
+  .zip-code-container {
+    display: grid;
+    grid-template-columns: max-content max-content;
+  }
+
+  .p-postal-code, .p-extended-address {
+    width: 90%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
 
-  button {
+  .submit-button {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
