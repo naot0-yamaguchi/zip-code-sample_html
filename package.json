@@ -2,7 +2,7 @@
   "name": "zip-code-sample_html",
   "version": "1.0.0",
   "description": "This is the sample for YubinBango.js",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node-sass src/styles/main.scss public/css/main.css",
